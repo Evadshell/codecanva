@@ -67,3 +67,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+.text-neon-green {
+  color: var(--neon-green);
+}
+
+.bg-neon-green {
+  background-color: var(--neon-green);
+}
+
+.border-neon-green {
+  border-color: var(--neon-green);
+}

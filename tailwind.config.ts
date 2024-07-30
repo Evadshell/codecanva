@@ -24,6 +24,9 @@ const config = {
       colors: {
         background: "#F7F9FC",
         border: "hsl(var(--border))",
+        'neon-green': '#39ff14',
+        'neon-pink': '#ff00ff',
+        'neon-blue': '#00ffff',
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         // background: "hsl(var(--background))",
