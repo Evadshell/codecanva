@@ -2,11 +2,11 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 
 const ParticlesBackground = () => {
-  const particlesInit = useCallback(async (engine) => {
+  const particlesInit = useCallback(async (engine: any) => {
     console.log(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async (container) => {
+  const particlesLoaded = useCallback(async (container: any) => {
     console.log(container);
   }, []);
 
