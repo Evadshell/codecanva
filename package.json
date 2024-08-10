@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "npx serve out",
     "lint": "next lint"
   },
@@ -30,6 +30,7 @@
     "react-intersection-observer": "^9.13.0",
     "react-spring": "^9.7.4",
     "react-tsparticles": "^2.12.2",
+    "sharp": "^0.33.4",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.167.0",
